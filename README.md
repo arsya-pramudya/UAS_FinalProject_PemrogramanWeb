@@ -183,19 +183,6 @@ JWT_SECRET=your_secret_key
 
 ---
 
-# 📸 Tampilan Aplikasi
-
-Tambahkan screenshot berikut agar repository lebih menarik.
-
-* Landing Page
-* Login
-* Register
-* Dashboard Admin
-* Dashboard Pelanggan
-* Halaman Pesanan
-* Halaman Pembayaran
-
----
 
 # 📚 Mata Kuliah
 
