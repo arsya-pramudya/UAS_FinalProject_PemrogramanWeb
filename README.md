@@ -190,20 +190,7 @@ Program Studi S1 Informatika
 
 Universitas Amikom Yogyakarta
 
----
 
-# 📌 Catatan
-
-Repository ini dibuat sebagai pemenuhan tugas **Ujian Akhir Semester (UAS)** mata kuliah Pemrograman Web.
-
-Project ini masih dapat dikembangkan dengan berbagai fitur tambahan seperti:
-
-* Notifikasi status pesanan
-* Upload bukti pembayaran
-* Dashboard laporan
-* Grafik pendapatan
-* Cetak invoice
-* Integrasi pembayaran digital
 
 ---
 
