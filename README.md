@@ -20,11 +20,11 @@ Sistem dibangun menggunakan arsitektur **Frontend** dan **Backend** yang saling 
 
 # 🎯 Tujuan Proyek
 
-* Membuat sistem informasi laundry berbasis web.
-* Mempermudah pengelolaan data pelanggan.
-* Mempermudah pencatatan pesanan laundry.
-* Mengelola proses pembayaran secara digital.
-* Mengimplementasikan konsep Full Stack Web Development menggunakan React dan NestJS.
+- Membuat sistem informasi laundry berbasis web.
+- Mempermudah pengelolaan data pelanggan, pesanan, dan pembayaran.
+- Mengimplementasikan REST API untuk komunikasi antara Frontend dan Backend.
+- Mengimplementasikan **JSON Web Token (JWT)** sebagai mekanisme autentikasi dan otorisasi pengguna.
+- Mengimplementasikan konsep Full Stack Web Development menggunakan React.js, NestJS, dan MySQL.
 
 ---
 
