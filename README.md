@@ -108,7 +108,7 @@ UAS
 ## 1. Clone Repository
 
 ```bash
-git clone <link-repository>
+git clone https://github.com/arsya-pramudya/UAS_FinalProject_PemrogramanWeb.git
 ```
 
 ---
