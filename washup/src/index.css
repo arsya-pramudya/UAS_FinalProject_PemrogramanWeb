@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+/* ===== Font yang lebih friendly ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #fbfdfd;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* ===== Warna utama: biru segar ===== */
+:root {
+  --bs-primary: #2563eb;
+  --bs-primary-rgb: 37, 99, 235;
+  --bs-link-color: #2563eb;
+  --bs-link-hover-color: #1d4ed8;
+}
+
+/* Bootstrap men-hardcode warna tombol, jadi override manual di sini */
+.btn-primary {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  transform: translateY(-2px);
+}
+.btn-outline-primary {
+  color: #2563eb !important;
+  border-color: #2563eb !important;
+}
+.btn-outline-primary:hover {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+}
+
+/* Semua tombol jadi terasa lebih "hidup" saat disentuh */
+.btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== Card & kotak fitur jadi lebih "mengambang" ===== */
+.card,
+.transition-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover,
+.transition-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(37, 99, 235, 0.18) !important;
+}
+
+/* ===== Navbar sedikit "melayang" saat discroll ===== */
+.navbar {
+  transition: box-shadow 0.3s ease;
+}
+.sticky-top.shadow-sm {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* ===== Animasi fade-in halus tiap pindah halaman ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+/* ===== Sentuhan kecil biar terasa "ramah" ===== */
+.rounded-4, .rounded-pill {
+  transition: all 0.25s ease;
+}
+::selection {
+  background-color: #2563eb;
+  color: #fff;
+=======
+.transition-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.transition-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1.5rem rgba(13, 110, 253, 0.15) !important;
+>>>>>>> 2bfd4e106a5d987f0729993ffd0d4586c0d2bde1
+}
