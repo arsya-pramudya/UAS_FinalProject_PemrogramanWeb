@@ -64,9 +64,7 @@ Sistem dibangun menggunakan arsitektur **Frontend** dan **Backend** yang saling 
 * React.js
 * Vite
 * Bootstrap
-* Tailwind CSS
 * Axios
-* React Router DOM
 
 ## Backend
 
